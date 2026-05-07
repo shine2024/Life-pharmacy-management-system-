@@ -1,0 +1,13 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "npm init -y\r incounted this for the first time trying to understand\r got to know it is used to create a package.json for the project and my question is that\r what is the reason for this cann't we go forward with out this json file that is my question.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
