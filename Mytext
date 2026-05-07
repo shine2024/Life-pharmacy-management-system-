@@ -72,3 +72,19 @@ dependencies become mixed
 project becomes confusing
 deployment becomes harder
 version conflicts may happen
+
+
+
+the next step
+ creating the git and to navigate and make changes in both the laptop 
+
+ git clone (the url from the github)
+
+ before starting we need to 
+ pull. ---git pull
+
+ make the changes 
+ git add .
+ git commit -m ""
+ git push
+ 
