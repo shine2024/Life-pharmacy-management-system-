@@ -73,18 +73,24 @@ project becomes confusing
 deployment becomes harder
 version conflicts may happen
 
+the steps to make it meet the github
 
+create a repo in the git
+and
+git remote add origin (url)
+git add .
+git commit -m ""
+git push -u origin main
 
 the next step
- creating the git and to navigate and make changes in both the laptop 
+creating the git and to navigate and make changes in both the laptop
 
- git clone (the url from the github)
+git clone (the url from the github)
 
- before starting we need to 
- pull. ---git pull
+before starting we need to
+pull. ---git pull
 
- make the changes 
- git add .
- git commit -m ""
- git push
- 
+make the changes
+git add .
+git commit -m ""
+git push
