@@ -73,6 +73,7 @@ project becomes confusing
 deployment becomes harder
 version conflicts may happen
 
+------------------git hub----------------------
 the steps to make it meet the github
 
 create a repo in the git
@@ -94,3 +95,145 @@ make the changes
 git add .
 git commit -m ""
 git push
+
+
+
+-----------------git learnings -----------
+Good question 👍
+These are called **flags/options** in Git commands.
+
+---
+
+# 1. `-m` in `git commit`
+
+Command:
+
+```bash id="y9m6jq"
+git commit -m "updated login page"
+```
+
+## Meaning of `-m`
+
+# `-m`
+
+**message**
+
+It lets you write the commit message directly in the command.
+
+---
+
+## Without `-m`
+
+If you run:
+
+```bash id="v94qhb"
+git commit
+```
+
+Git opens a text editor asking you to type a commit message manually.
+
+---
+
+## With `-m`
+
+```bash id="8ml14n"
+git commit -m "fixed API bug"
+```
+
+Git immediately saves the commit with that message.
+
+---
+
+# Think of commit message like:
+
+A short note explaining:
+
+* what changes you made
+* why you made them
+
+Example:
+
+```text id="p8op1r"
+fixed login issue
+added pharmacy invoice feature
+updated README
+```
+
+---
+
+# 2. `-u` in `git push -u origin main`
+
+Command:
+
+```bash id="cndx0r"
+git push -u origin main
+```
+
+## Meaning of `-u`
+
+# `-u`
+
+**upstream**
+
+It connects:
+
+* your local branch
+  with
+* remote GitHub branch
+
+---
+
+# What happens?
+
+Git remembers:
+
+```text id="kk2h98"
+local main  → remote origin/main
+```
+
+After this, next time you can simply run:
+
+```bash id="nl7u1v"
+git push
+```
+
+instead of:
+
+```bash id="drfhre"
+git push origin main
+```
+
+---
+
+# Simple Analogy
+
+## `-m`
+
+Like attaching a note:
+
+```text id="51yl8y"
+"this is what I changed"
+```
+
+---
+
+## `-u`
+
+Like telling Git:
+
+```text id="d2q1df"
+"from now connect these two branches"
+```
+
+---
+
+# Summary
+
+| Flag | Meaning  | Purpose                            |
+| ---- | -------- | ---------------------------------- |
+| `-m` | message  | add commit message                 |
+| `-u` | upstream | link local branch to remote branch |
+
+
+
+
